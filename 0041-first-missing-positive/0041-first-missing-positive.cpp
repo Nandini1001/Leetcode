@@ -15,10 +15,5 @@ public:
             }
             k++;
         }
-        /*for(auto it=hash.begin();it!=hash.end();it++)
-        {
-            if(hash[it]==0)
-                return it;
-        }*/
     }
 };
