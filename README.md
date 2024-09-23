@@ -36,5 +36,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Nandini1001/Leetcode/tree/master/0041-first-missing-positive) |
 | [0066-plus-one](https://github.com/Nandini1001/Leetcode/tree/master/0066-plus-one) |
+## Hash Table
+|  |
+| ------- |
+| [0041-first-missing-positive](https://github.com/Nandini1001/Leetcode/tree/master/0041-first-missing-positive) |
 <!---LeetCode Topics End-->
