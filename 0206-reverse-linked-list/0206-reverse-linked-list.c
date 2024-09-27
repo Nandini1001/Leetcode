@@ -20,9 +20,4 @@ struct ListNode* reverseList(struct ListNode* head) {
     head->next=NULL;
     head=p;
     return head;
-    /*while(p!=NULL)
-    {
-        printf("%d ",p->data);
-        p=p->next;
-    }*/
 }
