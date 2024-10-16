@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Nandini1001/Leetcode/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/Nandini1001/Leetcode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/Nandini1001/Leetcode/tree/master/0066-plus-one) |
 | [1013-fibonacci-number](https://github.com/Nandini1001/Leetcode/tree/master/1013-fibonacci-number) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Nandini1001/Leetcode/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0041-first-missing-positive](https://github.com/Nandini1001/Leetcode/tree/master/0041-first-missing-positive) |
+| [0048-rotate-image](https://github.com/Nandini1001/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Nandini1001/Leetcode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/Nandini1001/Leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Nandini1001/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Nandini1001/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Nandini1001/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 ## Prefix Sum
