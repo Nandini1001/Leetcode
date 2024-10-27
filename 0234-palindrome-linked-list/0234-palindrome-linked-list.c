@@ -24,9 +24,9 @@
 bool isPalindrome(struct ListNode* head) {
     if(head==0 || head->next==0)
         return true;
-    struct ListNode *l=head,*h=0;
+    struct ListNode *slow=head,*fast=head, *h=0, *nh=0;
     int cnt=0,c=1;
-    while(l!=0)
+    /*while(l!=0)
     {
         cnt++;
         l=l->next;
@@ -36,18 +36,26 @@ bool isPalindrome(struct ListNode* head) {
     {
         l=l->next;
         c++;
+    }*/
+    while(fast->next!=0 && fast->next->next!=0)
+    {
+        slow=slow->next;
+        fast=fast->next->next;
     }
-    h=rev(l->next);
-    l->next=h;
-    l=head;
+    nh=rev(slow->next);
+    h=nh;
+    //slow->next=h;
+    slow=head;
     while(h!=0)
     {
-        if(l->val!=h->val)
+        if(slow->val!=h->val)
         {
+            rev(nh);
             return false;
         }
         h=h->next;
-        l=l->next;
+        slow=slow->next;
     }
+    rev(nh);
     return true;
 }
