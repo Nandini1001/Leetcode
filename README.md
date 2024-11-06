@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Nandini1001/Leetcode/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/Nandini1001/Leetcode/tree/master/0125-valid-palindrome) |
 | [0142-linked-list-cycle-ii](https://github.com/Nandini1001/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Nandini1001/Leetcode/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Nandini1001/Leetcode/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/Nandini1001/Leetcode/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/Nandini1001/Leetcode/tree/master/0217-contains-duplicate) |
 ## Linked List
 |  |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Nandini1001/Leetcode/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Nandini1001/Leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0142-linked-list-cycle-ii](https://github.com/Nandini1001/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Nandini1001/Leetcode/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/Nandini1001/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0234-palindrome-linked-list) |
@@ -118,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Nandini1001/Leetcode/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/Nandini1001/Leetcode/tree/master/0148-sort-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -138,4 +142,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0234-palindrome-linked-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Nandini1001/Leetcode/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
