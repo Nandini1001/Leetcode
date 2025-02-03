@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Nandini1001/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2486-most-frequent-even-element](https://github.com/Nandini1001/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Nandini1001/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/Nandini1001/Leetcode/tree/master/3429-special-array-i) |
 ## Hash Table
 |  |
