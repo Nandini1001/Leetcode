@@ -2,10 +2,10 @@ class Solution {
 private:
     int noofdays(vector<int>& weights, int wt)
     {
-        int day=0,sum=0;
+        int day=1,sum=0;
         for(int i=0;i<weights.size();i++)
         {
-            sum+=weights[i];
+            /*sum+=weights[i];
             if(sum>wt)
             {
                 day++;
@@ -13,7 +13,16 @@ private:
                 i--;
             }
         }
-        return day+1;
+        return day+1;*/
+            if(sum+weights[i]>wt)
+            {
+                day++;
+                sum=weights[i];
+            }
+            else
+                sum+=weights[i];
+        }
+        return day;
     }
     int findMax(vector<int>& weights)
     {
