@@ -9,7 +9,7 @@ public:
         {
             int mid=(low+high)/2;
             int l1=INT_MIN,l2=INT_MIN,r1=INT_MAX,r2=INT_MAX;
-            if((mid)<n1) r1=nums1[mid];
+            if(mid!=n1) r1=nums1[mid];
             if((left-mid)<n2) r2=nums2[left-mid];
             if(mid>0) l1=nums1[mid-1];
             if((left-mid)>0) l2=nums2[left-mid-1];
