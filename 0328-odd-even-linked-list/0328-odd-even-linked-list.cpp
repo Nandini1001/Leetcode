@@ -11,9 +11,9 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-        if(head==0 || head->next==0)
+        if(head==0 || head->next==0 || head->next->next==nullptr)
             return head;
-        ListNode *ht=head->next->next, *oh=head, *ot=oh, *eh=head->next, *et=eh;
+        /*ListNode *ht=head->next->next, *oh=head, *ot=oh, *eh=head->next, *et=eh;
         while(1)
         {
             ot->next=ht;
@@ -31,6 +31,16 @@ public:
         while(ot->next!=0)
             ot=ot->next;
         ot->next=eh;
-        return oh;
+        return oh;*/
+       ListNode *odd=head, *evenhead=head->next, *even=evenhead;
+       while(even!=nullptr && even->next!=nullptr)
+       {
+            odd->next=odd->next->next;
+            even->next=even->next->next;
+            odd=odd->next;
+            even=even->next;
+       }
+       odd->next=evenhead;
+       return head;
     }
 };
