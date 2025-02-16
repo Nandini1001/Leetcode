@@ -7,7 +7,7 @@
  */
 struct ListNode* middle(struct ListNode *head)
 {
-    struct ListNode *slow=head,*fast=head->next;
+    struct ListNode *slow=head,*fast=head->next->next;
     while(fast!=0 && fast->next!=0)
     {
         slow=slow->next;
