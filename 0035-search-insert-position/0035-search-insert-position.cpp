@@ -14,6 +14,6 @@ public:
             else
                 low=mid+1;
         }
-        return ans;
+        return low;
     }
 };
