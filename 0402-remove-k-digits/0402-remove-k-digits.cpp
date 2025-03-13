@@ -6,27 +6,27 @@ public:
         string ans;
         for(int i:num)
         {
-            while(!st.empty() && k>0 && st.top()>i)
+            while(ans.size() && k>0 && ans.back()>i)
             {
-                st.pop();
+                ans.pop_back();
                 k--;
             }
-            st.push(i);
+            ans+=i;
         }
-        while(!st.empty() && k>0)
+        while(ans.size() && k>0)
         {
-            st.pop();
+            ans.pop_back();
             k--;
         }
-        while(!st.empty())
+        /*while(!st.empty())
         {
             ans+=st.top();
             st.pop();
-        }
-        while(ans.size() && ans.back()=='0')
-            ans.pop_back();
+        }*/
+        while(ans.size() && ans.front()=='0')
+            ans.erase(ans.begin());
         if(!ans.size()) return "0";
-        reverse(ans.begin(),ans.end());
+        //reverse(ans.begin(),ans.end());
         return ans;
     }
 };
