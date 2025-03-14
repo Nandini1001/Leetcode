@@ -13,9 +13,6 @@ private:
 
 public:
     int maximumCandies(vector<int>& candies, long long k) {
-        //long long sum=accumulate(candies.begin(),candies.end(),0);
-        //if(k>candies.size()) return 0;
-        //if(k==candies.size()) return *min_element(candies.begin(),candies.end());
         int low=1, high=*max_element(candies.begin(),candies.end());
         while(low<=high)
         {
