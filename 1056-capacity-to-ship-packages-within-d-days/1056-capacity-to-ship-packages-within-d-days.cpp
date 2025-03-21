@@ -5,6 +5,14 @@ private:
         int day=1,sum=0;
         for(int i=0;i<weights.size();i++)
         {
+            sum+=weights[i];
+            if(sum>wt)
+            {
+                day++;
+                sum=weights[i];
+            }
+        }
+        return day;
             /*sum+=weights[i];
             if(sum>wt)
             {
@@ -13,7 +21,7 @@ private:
                 i--;
             }
         }
-        return day+1;*/
+        return day+1;
             if(sum+weights[i]>wt)
             {
                 day++;
@@ -22,7 +30,7 @@ private:
             else
                 sum+=weights[i];
         }
-        return day;
+        return day;*/
     }
     int findMax(vector<int>& weights)
     {
