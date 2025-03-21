@@ -22,7 +22,7 @@ public:
                 return true;
         }
         return 0;*/
-        int n=matrix.size(),m=matrix[0].size();
+        /*int n=matrix.size(),m=matrix[0].size();
         int low=0,high=n*m-1;
         while(low<=high)
         {
@@ -35,6 +35,17 @@ public:
             else
                 high=mid-1;
         }
-        return false;
+        return false;*/
+        int n = matrix.size();
+    int m = matrix[0].size();
+    int row = 0, col = m - 1;
+
+    //traverse the matrix from (0, m-1):
+    while (row < n && col >= 0) {
+        if (matrix[row][col] == target) return true;
+        else if (matrix[row][col] < target) row++;
+        else col--;
+    }
+    return false;
     }
 };
