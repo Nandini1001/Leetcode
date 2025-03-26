@@ -15,9 +15,19 @@ private:
     {
         if(root==nullptr)
             return;
-        arr.push_back(root->val);
+        /*arr.push_back(root->val);
         preorder(root->left,arr);
-        preorder(root->right,arr);
+        preorder(root->right,arr);*/
+        stack<TreeNode*> s;
+        s.push(root);
+        while(!s.empty())
+        {
+            TreeNode* top=s.top();
+            s.pop();
+            arr.push_back(top->val);
+            if(top->right) s.push(top->right);
+            if(top->left) s.push(top->left);
+        }
     }
 public:
     vector<int> preorderTraversal(TreeNode* root) {
