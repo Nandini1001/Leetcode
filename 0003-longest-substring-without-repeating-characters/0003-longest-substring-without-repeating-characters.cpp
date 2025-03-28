@@ -14,17 +14,17 @@ public:
             hash[s[r]]=r;
             r++;
         }*/
-        unordered_map<char,int> mpp;
+        vector<int> hash(256,-1);
         while(r<s.size())
         {
-            if(mpp.find(s[r])!=mpp.end() && mpp[s[r]]>=l)
+            if(hash[s[r]]>=l)
             {
-                l=mpp[s[r]]+1;
-                mpp[s[r]]=r;
+                l=hash[s[r]]+1;
+                hash[s[r]]=r;
                 r++;
                 continue;
             }
-            mpp[s[r]]=r;
+            hash[s[r]]=r;
             maxlen=max(maxlen,r-l+1);
             r++;
         }
