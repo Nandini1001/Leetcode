@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Nandini1001/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Nandini1001/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0678-valid-parenthesis-string](https://github.com/Nandini1001/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1013-fibonacci-number](https://github.com/Nandini1001/Leetcode/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Nandini1001/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0402-remove-k-digits](https://github.com/Nandini1001/Leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Nandini1001/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0678-valid-parenthesis-string](https://github.com/Nandini1001/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Nandini1001/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Nandini1001/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Nandini1001/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Nandini1001/Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Nandini1001/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0678-valid-parenthesis-string](https://github.com/Nandini1001/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Nandini1001/Leetcode/tree/master/0735-asteroid-collision) |
 | [2227-sum-of-subarray-ranges](https://github.com/Nandini1001/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Merge Sort
@@ -323,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0402-remove-k-digits](https://github.com/Nandini1001/Leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0678-valid-parenthesis-string](https://github.com/Nandini1001/Leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Backtracking
 |  |
 | ------- |
