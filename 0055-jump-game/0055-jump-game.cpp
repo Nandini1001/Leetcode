@@ -5,9 +5,10 @@ public:
         for(int i=0;i<nums.size();i++)
         {
             if(maxind<i) return false;
-            if((i+nums[i])>maxind)
-                maxind=i+nums[i];
+            maxind=max(maxind,i+nums[i]);
+            if(maxind>=nums.size()-1)
+                return true;
         }
-        return maxind>=nums.size()-1;
+        return true;
     }
 };
