@@ -10,21 +10,27 @@ public:
                 continue;
             int j=i+1;
             int k=n-1;
-            while(j<k){
-            int third=nums[i]+nums[j]+nums[k];
-            if(third>0)
-                k--;
-            else if(third<0)
-                j++;
-            else
+            while(j<k)
             {
-                vector<int> temp={nums[i],nums[j],nums[k]};
-                ans.push_back(temp);
-                j++;
-                k--;
-                while(j<k && nums[j]==nums[j-1]) j++;
-                while(j<k && nums[k]==nums[k+1]) k--;
-            }}
+                int third=nums[i]+nums[j]+nums[k];
+                if(third>0){
+                    k--;
+                    while(j<k && nums[k]==nums[k+1]) k--;
+                }
+                else if(third<0){
+                    j++;
+                    while(j<k && nums[j]==nums[j-1]) j++;
+                }
+                else
+                {
+                    vector<int> temp={nums[i],nums[j],nums[k]};
+                    ans.push_back(temp);
+                    j++;
+                    k--;
+                    while(j<k && nums[j]==nums[j-1]) j++;
+                    while(j<k && nums[k]==nums[k+1]) k--;
+                }
+            }
         }
         return ans;
     }
