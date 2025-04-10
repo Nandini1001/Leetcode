@@ -2,7 +2,7 @@ class Solution {
 private:
     void findcombination(int ind, int target, vector<int>& candidates, vector<vector<int>>& ans, vector<int>& ds)
     {
-        if(ind==candidates.size())
+        if(ind==candidates.size() || target==0)
         {
             if(target==0)
                 ans.push_back(ds);
