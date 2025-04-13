@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Nandini1001/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Nandini1001/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Nandini1001/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1073-number-of-enclaves](https://github.com/Nandini1001/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Nandini1001/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Nandini1001/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Nandini1001/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Nandini1001/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Nandini1001/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Nandini1001/Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Nandini1001/Leetcode/tree/master/1073-number-of-enclaves) |
 | [2047-find-a-peak-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3227-find-missing-and-repeated-values](https://github.com/Nandini1001/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -436,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Nandini1001/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Nandini1001/Leetcode/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Nandini1001/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/Nandini1001/Leetcode/tree/master/1073-number-of-enclaves) |
 ## Binary Tree
 |  |
 | ------- |
@@ -462,10 +465,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Nandini1001/Leetcode/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Nandini1001/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Nandini1001/Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Nandini1001/Leetcode/tree/master/1073-number-of-enclaves) |
 ## Union Find
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Nandini1001/Leetcode/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/Nandini1001/Leetcode/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
