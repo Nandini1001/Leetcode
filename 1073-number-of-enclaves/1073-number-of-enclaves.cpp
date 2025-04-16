@@ -10,13 +10,11 @@ public:
             if(grid[0][j])
             {
                 vis[0][j]=1;
-                //grid[0][j]=0;
                 q.push({0,j});
             }
             if(grid[n-1][j])
             {
                 vis[n-1][j]=1;
-                //grid[n-1][j]=0;
                 q.push({n-1,j});
             }
         }
@@ -24,20 +22,18 @@ public:
             if(grid[i][0])
             {
                 vis[i][0]=1;
-                //grid[i][0]=0;
                 q.push({i,0});
             }
             if(grid[i][m-1])
             {
                 vis[i][m-1]=1;
-                //grid[i][m-1]=0;
                 q.push({i,m-1});
             }
         }
         bfs(q,vis,grid);
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid[i][j])
+                if(!vis[i][j] && grid[i][j])
                     cnt++;
             }
         }
@@ -52,7 +48,7 @@ public:
         while(!q.empty()){
         int r=q.front().first;
         int c=q.front().second;
-        board[r][c]=0;
+        //board[r][c]=0;
         q.pop();
         for(int i=0;i<4;i++){
             int nrow=r+drow[i];
