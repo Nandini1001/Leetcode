@@ -1,5 +1,13 @@
 class Solution {
 public:
+    int dgtsum(int n){
+        int sum=0;
+        while(n>0){
+            sum+=(n%10);
+            n=n/10;
+        }
+        return sum;
+    }
     int countLargestGroup(int n) {
         /*int sumend=(n>9)?9:n;
         int cntbig=0;
@@ -20,20 +28,18 @@ public:
                 cntbig++;
         }
         return cntbig;*/
-        vector<int> count(37, 0); // Max digit sum from 1 to 9999 is 9+9+9+9 = 36
-
-        for (int i = 1; i <= n; ++i) {
-            int sum = 0, x = i;
-            while (x > 0) {
-                sum += x % 10;
-                x /= 10;
+        unordered_map<int,int> mpp;
+        int res=0;
+        int max=INT_MIN;
+        for(int i=1;i<=n;i++){
+            int sum=dgtsum(i);
+            mpp[sum]++;
+            if(mpp[sum]>max){
+                max=mpp[sum];
+                res=1;
             }
-            count[sum]++;
+            else if(mpp[sum]==max) res++;
         }
-
-        int maxSize = *max_element(count.begin(), count.end());
-        int result = count_if(count.begin(), count.end(), [maxSize](int c) { return c == maxSize; });
-
-        return result;
+        return res;
     }
 };
