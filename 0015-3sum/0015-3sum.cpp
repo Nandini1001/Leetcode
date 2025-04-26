@@ -15,11 +15,11 @@ public:
                 int third=nums[i]+nums[j]+nums[k];
                 if(third>0){
                     k--;
-                    while(j<k && nums[k]==nums[k+1]) k--;
+                    while(j<k && nums[k]==nums[k+1]) k--; //by me
                 }
                 else if(third<0){
                     j++;
-                    while(j<k && nums[j]==nums[j-1]) j++;
+                    while(j<k && nums[j]==nums[j-1]) j++; //by me
                 }
                 else
                 {
