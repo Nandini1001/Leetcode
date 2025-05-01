@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Nandini1001/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Nandini1001/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Nandini1001/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0908-middle-of-the-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Nandini1001/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nandini1001/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Nandini1001/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Nandini1001/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nandini1001/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0485-max-consecutive-ones](https://github.com/Nandini1001/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Nandini1001/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/Nandini1001/Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/0229-majority-element-ii) |
+| [0349-intersection-of-two-arrays](https://github.com/Nandini1001/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/Nandini1001/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Nandini1001/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Nandini1001/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -229,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Nandini1001/Leetcode/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/Nandini1001/Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/0229-majority-element-ii) |
+| [0349-intersection-of-two-arrays](https://github.com/Nandini1001/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0435-non-overlapping-intervals](https://github.com/Nandini1001/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/Nandini1001/Leetcode/tree/master/0748-largest-number-at-least-twice-of-others) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -286,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Nandini1001/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0278-first-bad-version](https://github.com/Nandini1001/Leetcode/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/Nandini1001/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Nandini1001/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/Nandini1001/Leetcode/tree/master/0792-binary-search) |
