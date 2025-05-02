@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/Nandini1001/Leetcode/tree/master/0069-sqrtx) |
 | [0204-count-primes](https://github.com/Nandini1001/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Nandini1001/Leetcode/tree/master/0231-power-of-two) |
+| [0319-bulb-switcher](https://github.com/Nandini1001/Leetcode/tree/master/0319-bulb-switcher) |
 | [1013-fibonacci-number](https://github.com/Nandini1001/Leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Nandini1001/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1500-count-largest-group](https://github.com/Nandini1001/Leetcode/tree/master/1500-count-largest-group) |
@@ -544,4 +545,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Nandini1001/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nandini1001/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Nandini1001/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/Nandini1001/Leetcode/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
