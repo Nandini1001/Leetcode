@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Nandini1001/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Nandini1001/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2048-build-array-from-permutation](https://github.com/Nandini1001/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2227-sum-of-subarray-ranges](https://github.com/Nandini1001/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Nandini1001/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Nandini1001/Leetcode/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/Nandini1001/Leetcode/tree/master/0735-asteroid-collision) |
+| [2048-build-array-from-permutation](https://github.com/Nandini1001/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Nandini1001/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Divide and Conquer
 |  |
