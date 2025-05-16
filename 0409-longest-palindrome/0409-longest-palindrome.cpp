@@ -1,7 +1,7 @@
 class Solution {
 public:
     int longestPalindrome(string s) {
-        int one=0,cnt=0;
+        /*int one=0,cnt=0;
         unordered_map<char,int> mpp;
         for(char c:s){
             mpp[c]++;
@@ -23,6 +23,29 @@ public:
             else if(!(it & 1))
                 cnt+=it;
         }
-        return cnt;
+        return cnt;*/
+        int cnt=0,odd=0;
+        vector<int>lower(26,0);
+        vector<int> upper(26,0);
+        for(char c:s){
+            if(c>='a')
+                lower[c-'a']++;
+            else
+                upper[c-'A']++;
+        }
+        for(int i=0;i<26;i++){
+            if(lower[i]&1){
+                cnt+=lower[i]-1;
+                odd=1;
+            }
+            else cnt+=lower[i];
+
+            if(upper[i]&1){
+                cnt+=upper[i]-1;
+                odd=1;
+            }
+            else cnt+=upper[i];
+        }
+        return cnt+odd;
     }
 };
