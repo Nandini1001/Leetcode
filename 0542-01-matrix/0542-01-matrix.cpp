@@ -3,17 +3,20 @@ public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         int n=mat.size();
         int m=mat[0].size();
-        vector<vector<int>> vis(n,vector<int>(m,0));
-        vector<vector<int>> matrix(n,vector<int>(m,0));
+        //vector<vector<int>> vis(n,vector<int>(m,0));
+        //vector<vector<int>> matrix(n,vector<int>(m,0));
+        vector<vector<int>> matrix(n,vector<int>(m,-2));
         queue<pair<pair<int,int>,int>> q;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(!mat[i][j]){
                     q.push({{i,j},0});
-                    vis[i][j]=1;
+                    //vis[i][j]=1;
+                    matrix[i][j]=-1;
                 }
                 else
-                    vis[i][j]=0;
+                    //vis[i][j]=0;
+                    matrix[i][j]=-2;
             }
         }
         int drow[]={0,0,-1,+1};
@@ -27,8 +30,10 @@ public:
             for(int i=0;i<4;i++){
                 int nrow=row+drow[i];
                 int ncol=col+dcol[i];
-                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && vis[nrow][ncol]==0){
-                    vis[nrow][ncol]=1;
+                //if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && vis[nrow][ncol]==0){
+                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && matrix[nrow][ncol]==-2){
+                    //vis[nrow][ncol]=1;
+                    matrix[nrow][ncol]=-1;
                     q.push({{nrow,ncol},step+1});
                 }
             }
