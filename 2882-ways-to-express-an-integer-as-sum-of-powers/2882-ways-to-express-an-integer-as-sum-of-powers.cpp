@@ -12,6 +12,7 @@ public:
     int numberOfWays(int n, int x) {
         vector<vector<int>> dp(n+2,vector<int>(n+1,-1));
         return sumPower(1,n,x,dp);
+        //tabulation not working
         for(int i=0;i<=n;i++) dp[i][0]=1;
         for(int i=n;i>=1;i--){
             for(int j=n;j>=1;j--){
