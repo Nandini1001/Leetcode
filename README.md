@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Nandini1001/Leetcode/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/Nandini1001/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Nandini1001/Leetcode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Nandini1001/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nandini1001/Leetcode/tree/master/0040-combination-sum-ii) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Nandini1001/Leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Nandini1001/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/Nandini1001/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Nandini1001/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Nandini1001/Leetcode/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/Nandini1001/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -366,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Nandini1001/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Nandini1001/Leetcode/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Nandini1001/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Nandini1001/Leetcode/tree/master/0054-spiral-matrix) |
