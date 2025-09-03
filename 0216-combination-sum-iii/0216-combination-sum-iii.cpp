@@ -13,7 +13,7 @@ public:
             return;
         }
         for(int i=start;i<=9;i++){
-            if(i>sum || (find(arr.begin(),arr.end(),i)!=arr.end())) continue;
+            if(i>sum) continue;
             arr.push_back(i);
             solve(i+1,k-1,sum-i,ans,arr);
             arr.pop_back();
