@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0319-bulb-switcher](https://github.com/Nandini1001/Leetcode/tree/master/0319-bulb-switcher) |
 | [0830-largest-triangle-area](https://github.com/Nandini1001/Leetcode/tree/master/0830-largest-triangle-area) |
 | [1013-fibonacci-number](https://github.com/Nandini1001/Leetcode/tree/master/1013-fibonacci-number) |
+| [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Nandini1001/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Nandini1001/Leetcode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Nandini1001/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/Nandini1001/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Nandini1001/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Nandini1001/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1036-rotting-oranges](https://github.com/Nandini1001/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Nandini1001/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Nandini1001/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Nandini1001/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0721-accounts-merge](https://github.com/Nandini1001/Leetcode/tree/master/0721-accounts-merge) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/Nandini1001/Leetcode/tree/master/0748-largest-number-at-least-twice-of-others) |
+| [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Nandini1001/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -476,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Nandini1001/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/Nandini1001/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 ## Backtracking
 |  |
 | ------- |
