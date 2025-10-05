@@ -16,20 +16,7 @@ public:
             pacific[i][0]=1;
             q.push({i,0});
         }
-        while(!q.empty()){
-            int row=q.front().first;
-            int col=q.front().second;
-            q.pop();
-            for(int i=0;i<4;i++){
-                int nrow=row+dr[i];
-                int ncol=col+dc[i];
-                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && pacific[nrow][ncol]==0 
-                && heights[row][col]<=heights[nrow][ncol]){
-                    pacific[nrow][ncol]=1;
-                    q.push({nrow,ncol});
-                }
-            }
-        }
+        bfs(dr,dc,heights,q,pacific);
         for(int i=0;i<m;i++){
             atlantic[n-1][i]=1;
             q.push({n-1,i});
@@ -38,20 +25,7 @@ public:
             atlantic[i][m-1]=1;
             q.push({i,m-1});
         }
-        while(!q.empty()){
-            int row=q.front().first;
-            int col=q.front().second;
-            q.pop();
-            for(int i=0;i<4;i++){
-                int nrow=row+dr[i];
-                int ncol=col+dc[i];
-                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && atlantic[nrow][ncol]==0 
-                && heights[row][col]<=heights[nrow][ncol]){
-                    atlantic[nrow][ncol]=1;
-                    q.push({nrow,ncol});
-                }
-            }
-        }
+        bfs(dr,dc,heights,q,atlantic);
         vector<vector<int>> ans;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
@@ -60,5 +34,24 @@ public:
             }
         }
         return ans;
+    }
+    void bfs(int dr[], int dc[], vector<vector<int>>& heights, queue<pair<int,int>>& q,
+    vector<vector<int>>& mat){
+        int n=heights.size();
+        int m=heights[0].size();
+        while(!q.empty()){
+            int row=q.front().first;
+            int col=q.front().second;
+            q.pop();
+            for(int i=0;i<4;i++){
+                int nrow=row+dr[i];
+                int ncol=col+dc[i];
+                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && mat[nrow][ncol]==0 
+                && heights[row][col]<=heights[nrow][ncol]){
+                    mat[nrow][ncol]=1;
+                    q.push({nrow,ncol});
+                }
+            }
+        }
     }
 };
