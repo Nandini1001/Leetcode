@@ -10,19 +10,39 @@
  * };
  */
 class Solution {
-private:
-    void inorder(TreeNode* root, vector<int>& arr)
-    {
-        if(root==nullptr)
-            return;
-        inorder(root->left,arr);
-        arr.push_back(root->val);
-        inorder(root->right,arr);
-    }
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> arr;
-        inorder(root,arr);
-        return arr;
+        vector<int> ans;
+        if(root==NULL) return ans;
+        stack<TreeNode*> st;
+        /*TreeNode *node=root;
+        while(true){
+            if(node!=NULL){
+                st.push(node);
+                node=node->left;
+            }
+            else{
+                if(st.empty()) return ans;
+                node=st.top();
+                st.pop();
+                ans.push_back(node->val);
+                node=node->right;
+            }
+        }*/
+        TreeNode *node;
+        st.push(root);
+        while(!st.empty()){
+            node=st.top();
+            node=node->left;
+            if(node) st.push(node);
+            while(!st.empty() && node==NULL){
+                node=st.top();
+                st.pop();
+                ans.push_back(node->val);
+                node=node->right;
+                if(node) st.push(node);
+            }
+        }
+        return ans;
     }
 };
