@@ -28,7 +28,10 @@ public:
                 ans.push_back(node->val);
                 node=node->right;
             }
-        }*/
+        }
+        return ans*/
+
+        //my logic
         TreeNode *node;
         st.push(root);
         while(!st.empty()){
