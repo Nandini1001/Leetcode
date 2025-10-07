@@ -21,9 +21,8 @@ public:
                     if(it==dry.end()) return {};
                     ans[*it]=rains[i];
                     dry.erase(it);
-                    full[rains[i]]=i;
                 }
-                else full[rains[i]]=i;
+                full[rains[i]]=i;
             }
         }
         return ans;
