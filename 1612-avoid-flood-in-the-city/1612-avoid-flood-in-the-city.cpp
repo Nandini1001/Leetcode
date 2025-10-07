@@ -5,7 +5,7 @@ public:
         int n=rains.size();
         vector<int> ans(n,1);
         set<int> dry;
-        map<int,int> full;
+        unordered_map<int,int> full;
         for(int i=0;i<n;i++)
         {
             if(rains[i]==0)
