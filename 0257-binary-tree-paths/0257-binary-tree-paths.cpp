@@ -18,16 +18,17 @@ public:
         path(root,ans,s);
         return ans;
     }
-    void path(TreeNode* root, vector<string>& ans, string s){
+    void path(TreeNode* root, vector<string>& ans, string& s){
         if(root==NULL) return;
+        int len=s.size();
         if(!s.empty()) s+="->";
         s+=to_string(root->val);
         if(root->left==NULL && root->right==NULL)
         {
             ans.push_back(s);
-            return;
         } 
         path(root->left,ans,s);
         path(root->right,ans,s);
+        s.resize(len);
     }
 };
