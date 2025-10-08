@@ -9,17 +9,25 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+//using level order 
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
         vector<int> ans;
-        rtview(root, 0, ans);
+        if(root==NULL) return ans;
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()){
+            int size=q.size();
+            for(int i=0;i<size;i++){
+                TreeNode* node=q.front();
+                q.pop();
+                if(i==0) ans.push_back(node->val);
+                if(node->right) q.push(node->right);
+                if(node->left) q.push(node->left);
+            }
+        }
         return ans;
     }
-    void rtview(TreeNode* root, int level, vector<int>& ans){
-        if(root==NULL) return;
-        if(ans.size()==level) ans.push_back(root->val);
-        rtview(root->right, level+1, ans);
-        rtview(root->left, level+1, ans);
-    }
+    
 };
