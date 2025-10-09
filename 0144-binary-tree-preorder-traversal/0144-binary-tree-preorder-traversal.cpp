@@ -11,17 +11,31 @@
  */
 class Solution {
 public:
+    //morris traversal
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> ans;
         if(root==NULL) return ans;
-        stack<TreeNode*> st;
-        st.push(root);
-        while(!st.empty()){
-            TreeNode *node=st.top();
-            st.pop();
-            if(node->right!=NULL) st.push(node->right);
-            if(node->left!=NULL) st.push(node->left);
-            ans.push_back(node->val);
+        TreeNode* curr=root;
+        while(curr){
+            if(curr->left==NULL){
+                ans.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+                TreeNode* leftrtmost=curr->left;
+                while(leftrtmost->right && leftrtmost->right!=curr){
+                    leftrtmost=leftrtmost->right;
+                }
+                if(leftrtmost->right==NULL){
+                    ans.push_back(curr->val);
+                    leftrtmost->right=curr;
+                    curr=curr->left;
+                }
+                else{
+                    leftrtmost->right=NULL;
+                    curr=curr->right;
+                }
+            }
         }
         return ans;
     }
