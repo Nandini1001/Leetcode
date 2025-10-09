@@ -37,30 +37,38 @@ public:
     }
 
     TreeNode* deserialize(string data) {
-       /*if(data.size()==0) return NULL;
-       TreeNode* node=new TreeNode(data[0]);
-        TreeNode *root=node;
-        queue<pair<TreeNode*, int>> q;
-        q.push({node,0});
-        while(!q.empty()){
-            TreeNode *node=q.front().first;
-            int ind=q.front().second;
-            q.pop();
-            if(data[2*ind+1]==null) node->left=NULL;
-            else{
-                TreeNode* left=new TreeNode(data[2*ind+1]);
-                node->left=left;
-                q.push({left,2*ind+1});
-            }
-            if(data[2*ind+2]==null) node->right=NULL;
-            else{
-                TreeNode* rt=new TreeNode(data[2*ind+2]);
-                node->right=rt;
-                q.push({rt,2*ind+2});
-            }
+        if(data.size()==0) return NULL;
+        stringstream ss(data);
+        string str;
+        vector<string> vals;
+        while(getline(ss, str, ',')){
+            vals.push_back(str);
         }
-        return root;*/
-         if (data.empty()) return nullptr;
+        TreeNode* root=new TreeNode(stoi(vals[0]));
+        //TreeNode *root=node;
+        queue<TreeNode*> q;
+        q.push(root);
+        int i=1;
+        while(!q.empty()){
+            TreeNode *node=q.front();
+            q.pop();
+            if(vals[i]=="null") node->left=nullptr;
+            else{
+                TreeNode* left=new TreeNode(stoi(vals[i]));
+                q.push(left);
+                node->left=left;
+            }
+            i++;
+            if(vals[i]=="null") node->right=nullptr;
+            else{
+                TreeNode* rt=new TreeNode(stoi(vals[i]));
+                q.push(rt);
+                node->right=rt;
+            }
+            i++;
+        }
+        return root;
+        /*if (data.empty()) return nullptr;
 
         stringstream ss(data);
         string str;
@@ -90,7 +98,7 @@ public:
             }
         }
 
-        return root;
+        return root;*/
     }
 };
 
