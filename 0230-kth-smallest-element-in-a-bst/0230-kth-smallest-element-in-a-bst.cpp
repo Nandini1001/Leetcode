@@ -13,18 +13,19 @@ class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
         int ksmall=-1;
-        int cnt=0;
+        int cnt=1;
         helper(root,&ksmall,&cnt,k);
         return ksmall;
     }
     void helper(TreeNode *root, int *ksmall, int* cnt, int k){
         if(root==NULL) return;
         helper(root->left,ksmall,cnt,k);
-        (*cnt)++;
         if(*cnt==k){
             *ksmall=root->val;
+            (*cnt)++;
             return;
         }
+        (*cnt)++;
         helper(root->right,ksmall,cnt,k);
     }
 };
