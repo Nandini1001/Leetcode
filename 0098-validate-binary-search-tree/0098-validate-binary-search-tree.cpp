@@ -13,9 +13,9 @@
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        return helper(root,LLONG_MIN, LLONG_MAX);
+        return helper(root,LONG_MIN, LONG_MAX);
     }
-    bool helper(TreeNode* root, long long  mini, long long maxi){
+    bool helper(TreeNode* root,  long  mini,  long maxi){
         if(!(root->val>mini && root->val<maxi)) return false;
         if(root->left) {
             if(!helper(root->left, mini, root->val)) return false;
