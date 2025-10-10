@@ -2,16 +2,11 @@ class Solution {
 public:
     int maximumEnergy(vector<int>& energy, int k) {
         int n=energy.size();
-        vector<int> prefixsum(n);
-        prefixsum=energy;
-        for(int i=n-1;i>=0;i--){
-            int ind=i+k;
-            if(ind<n)
-                prefixsum[i]+=prefixsum[ind];
-        }
         int maxi=INT_MIN;
-        for(auto it:prefixsum){
-            maxi=max(maxi,it);
+        for(int i=n-1;i>=0;i--){
+            if(i+k<n)
+                energy[i]+=energy[i+k];
+            maxi=max(maxi,energy[i]);
         }
         return maxi;
     }
@@ -19,4 +14,4 @@ public:
 };
 //same as prev accepted
 //TC: O(n)
-//SC: O(n)
+//SC: O(1)
