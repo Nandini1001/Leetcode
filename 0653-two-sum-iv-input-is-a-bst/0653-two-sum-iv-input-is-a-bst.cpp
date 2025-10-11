@@ -9,53 +9,63 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+class BSTIterator {
+    stack<TreeNode*> st;
+    bool reverse;
+    //reverse=true before
+public:
+    BSTIterator(TreeNode* root, int isreverse) {
+        reverse=isreverse;
+        pushall(root);
+    }
+    
+    int next() {
+        TreeNode* node=st.top();
+        st.pop();
+        if(!reverse && node->right) pushall(node->right);
+        if(reverse && node->left) pushall(node->left);
+        return node->val;
+    }
+    
+    bool hasNext() {
+        return !st.empty();
+    }
+
+    void pushall(TreeNode* root){
+        while(root){
+            st.push(root);
+            if(reverse==true) root=root->right;
+            else root=root->left;
+        }
+        /*st.push(root);
+        if(!reverse){
+            while(root->left){
+                st.push(root->left);
+                root=root->left;
+            }
+        }
+        else{
+            while(root->right){
+                st.push(root->right);
+                root=root->right;
+            }
+        }*/
+    }
+}; 
+
 class Solution {
 public:
     bool findTarget(TreeNode* root, int k) {
-        vector<int> inorder;
-        // Get the in-order traversal of the BST
-        inorderTraversal(root, inorder);
-
-        // Apply two-pointer approach
-        // on the in-order array
-        int left = 0, right = inorder.size() - 1;
-        while (left < right) {
-            
-            // Calculate sum of elements
-            // at left and right pointers
-            int sum = inorder[left] + inorder[right];
-            if (sum == k) {
-                // Pair found
-                return true; 
-                
-            } else if (sum < k) {
-                // Increment left pointer
-                left++; 
-                
-            } else {
-                // Decrement right pointer
-                right--; 
-            }
+        if(root==NULL) return false;
+        BSTIterator l(root, false);
+        BSTIterator r(root, true); //r.before()
+        int i=l.next();
+        int j=r.next();
+        while(i<j){
+            if(i+j==k) return true;
+            if(i+j>k) j=r.next();
+            else i=l.next();
         }
-        
-        // No pair found
-        return false; 
-    }
-
-private:
-    // Helper function to perform in-order
-    // traversal and populate the vector
-    void inorderTraversal(TreeNode* root, vector<int>& inorder) {
-        if (!root) {
-            return;
-        }
-        // Traverse left subtree
-        inorderTraversal(root->left, inorder); 
-        
-        // Push current node's value to vector
-        inorder.push_back(root->val); 
-        
-        // Traverse right subtree
-        inorderTraversal(root->right, inorder); 
+        return false;
     }
 };
