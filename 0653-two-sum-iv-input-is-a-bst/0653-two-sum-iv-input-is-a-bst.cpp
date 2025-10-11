@@ -32,12 +32,12 @@ public:
     }
 
     void pushall(TreeNode* root){
-        while(root){
+        /*while(root){
             st.push(root);
             if(reverse==true) root=root->right;
             else root=root->left;
-        }
-        /*st.push(root);
+        }*/
+        st.push(root);
         if(!reverse){
             while(root->left){
                 st.push(root->left);
@@ -49,7 +49,7 @@ public:
                 st.push(root->right);
                 root=root->right;
             }
-        }*/
+        }
     }
 }; 
 
@@ -69,3 +69,9 @@ public:
         return false;
     }
 };
+
+
+
+//by me 
+//prev also by me just altering the comment in pushall
+//1st is copy paste
