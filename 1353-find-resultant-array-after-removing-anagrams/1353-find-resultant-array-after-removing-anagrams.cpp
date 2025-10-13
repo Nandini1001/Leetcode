@@ -1,16 +1,12 @@
 class Solution {
 public:
     vector<string> removeAnagrams(vector<string>& words) {
-        vector<string> ans;
-        int prev=0;
         for(int i=1;i<words.size();i++){
-            if(!isanagram(words[prev],words[i])){
-                ans.push_back(words[prev]);
-                prev=i;
-            }
+            if(isanagram(words[i-1],words[i])){
+                words.erase(words.begin()+i);
+                i--;}
         }
-        ans.push_back(words[prev]);
-        return ans;
+        return words;
     }
     bool isanagram(string s1, string s2){
         multiset<char> st;
