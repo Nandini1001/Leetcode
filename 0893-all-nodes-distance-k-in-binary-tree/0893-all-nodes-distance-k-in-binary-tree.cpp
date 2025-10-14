@@ -10,40 +10,30 @@
 class Solution {
 public:
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        vector<int> ans;
+        if(root==NULL) return ans;
         unordered_map<TreeNode*,TreeNode*> parent_track;
         markParents(root,parent_track);
-        unordered_map<TreeNode*, bool> visited;
-        queue<TreeNode*> queue;
-        queue.push(target);
-        visited[target]=true;
-        int curr_level=0;
-        while(!queue.empty()){
-            int n=queue.size();
-            if(curr_level++==k) break;
-            for(int i=0;i<n;i++){
-                TreeNode* current=queue.front();
-                queue.pop();
-                if(current->left && !visited[current->left]){
-                    queue.push(current->left);
-                    visited[current->left]=true;
-                }
-                if(current->right && !visited[current->right]){
-                    queue.push(current->right);
-                    visited[current->right]=true;
-                }
-                if(parent_track[current] && !visited[parent_track[current]]){
-                    queue.push(parent_track[current]);
-                    visited[parent_track[current]]=true;
-                }
-            }
+        unordered_map<TreeNode*, bool> vis;
+        helper(target,parent_track,vis,0,k,ans);
+        return ans;
+    }
+    void helper(TreeNode* root, unordered_map<TreeNode*, TreeNode*> &parent, 
+    unordered_map<TreeNode*, bool> &vis, int dist, int k, vector<int>& ans){
+        if(dist==k) {
+            ans.push_back(root->val);
+            return;
         }
-        vector<int> res;
-        while(!queue.empty()){
-            TreeNode* current=queue.front();
-            queue.pop();
-            res.push_back(current->val);
+        vis[root]=1;
+        if(root->left && !vis[root->left]){
+            helper(root->left,parent,vis,dist+1,k,ans);
         }
-        return res;
+        if(root->right && !vis[root->right]){
+            helper(root->right,parent,vis,dist+1,k,ans);
+        }
+        if(parent.find(root)!=parent.end() && !vis[parent[root]]){
+            helper(parent[root],parent,vis,dist+1,k,ans);
+        }
     }
     void markParents(TreeNode* root, unordered_map<TreeNode*, TreeNode*> &mpp)
     {
