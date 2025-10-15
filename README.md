@@ -288,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3429-special-array-i](https://github.com/Nandini1001/Leetcode/tree/master/3429-special-array-i) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Nandini1001/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Nandini1001/Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Nandini1001/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Nandini1001/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Nandini1001/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Nandini1001/Leetcode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Nandini1001/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Nandini1001/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Nandini1001/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 ## Matrix
 |  |
 | ------- |
