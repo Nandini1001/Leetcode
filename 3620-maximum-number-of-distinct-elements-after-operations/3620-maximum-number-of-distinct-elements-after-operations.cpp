@@ -1,34 +1,29 @@
 class Solution {
 public:
     int maxDistinctElements(vector<int>& nums, int k) {
-        int cnt=0;
-        sort(nums.begin(),nums.end());
-        int add=k;
-        int maxi=nums[nums.size()-1]+add;
-        for(int i=nums.size()-2;i>=0;i--){
-            if(nums[i]==nums[i+1]){
-                add--;
-                while(add>=-k){
-                    if(nums[i]+add>=maxi) add--;
-                    else {
-                        maxi=nums[i]+add;
-                        break;
-                    }
-                }
-                if(add<-k) cnt++;
+        sort(nums.begin(), nums.end());
+        int last = INT_MIN;  // last chosen distinct value
+        int count = 0;
+
+        for (int num : nums) {
+            // allowed range for this element
+            int left = num - k;
+            int right = num + k;
+
+            // choose the smallest possible distinct number
+            int val = max(left, last + 1);
+
+            if (val <= right) {
+                count++;
+                last = val;
             }
-            else{
-                add=k;
-                while(add>=-k){
-                    if(nums[i]+add>=maxi) add--;
-                    else{
-                        maxi=nums[i]+add;
-                        break;
-                    }
-                }
-                if(add<-k) cnt++;
-            }
+            // else, we skip — can't assign distinct value
         }
-        return nums.size()-cnt;
+
+        return count;
     }
 };
+
+
+//prev done by me TC=n*(2*k+1)+nlogn
+//optimise nlogn
