@@ -2,17 +2,18 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int n=prices.size();
-        vector<vector<int>> dp(n+1,vector<int>(2,-1));
-        dp[n][0]=dp[n][1]=0;
+        vector<int> front(2,0), curr(2,0);
+        front[0]=front[1]=0;
         for(int ind=n-1;ind>=0;ind--){
-            dp[ind][1]=max(-prices[ind]+dp[ind+1][0],dp[ind+1][1]);
-            dp[ind][0]=max(prices[ind]+dp[ind+1][1],dp[ind+1][0]);
+            curr[1]=max(-prices[ind]+front[0],front[1]);
+            curr[0]=max(prices[ind]+front[1],front[0]);
+            front=curr;
         }
-        return dp[0][1];
+        return front[1];
     }
 };
 
 
-//tabulation
+//tabulation && space optimisation from 2Darray to 2 1D arrays
 //1->buy
 //0->not buy
