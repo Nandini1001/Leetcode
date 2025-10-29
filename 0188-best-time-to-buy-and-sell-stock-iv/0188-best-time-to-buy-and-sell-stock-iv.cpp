@@ -2,24 +2,18 @@ class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
         int n=prices.size();
-        vector<vector<vector<int>>> dp(n,vector<vector<int>>(2,vector<int>(k+1,-1)));
-        return helper(0,1, prices, k,dp);
-    }
-    int helper(int ind, int buy, vector<int>& prices, int cnt, vector<vector<vector<int>>>& dp){
-        if(ind==prices.size() || cnt==0) return 0;
-        if(dp[ind][buy][cnt]!=-1) return dp[ind][buy][cnt];
-        int profit=INT_MIN;
-        if(buy){
-            profit=max(-prices[ind]+helper(ind+1,0,prices,cnt,dp),helper(ind+1,1,prices,cnt,dp));
-        }
-        else{
-            profit=max(prices[ind]+helper(ind+1,1,prices,cnt-1,dp),helper(ind+1,0,prices,cnt,dp));
-        }
-        return dp[ind][buy][cnt]=profit;
+        vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(k+1,0)));
+        for(int ind=n-1;ind>=0;ind--){
+                for(int cnt=1;cnt<=k;cnt++){
+                    dp[ind][1][cnt]=max(-prices[ind]+dp[ind+1][0][cnt],dp[ind+1][1][cnt]);
+                    dp[ind][0][cnt]=max(prices[ind]+dp[ind+1][1][cnt-1],dp[ind+1][0][cnt]);
+                }
+            }
+        return dp[0][1][k];
     }
 };
 
 
-//memoization
+//another way of tabulation by removing buy loop
 //1->buy
 //0->not buy
