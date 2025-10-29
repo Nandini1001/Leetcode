@@ -2,20 +2,24 @@ class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
         int n=prices.size();
-        vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(k+1,0)));
-        for(int ind=n-1;ind>=0;ind--){
-            for(int buy=0;buy<=1;buy++){
-                for(int cnt=1;cnt<=k;cnt++){
-                    if(buy) dp[ind][buy][cnt]=max(-prices[ind]+dp[ind+1][0][cnt],dp[ind+1][1][cnt]);
-                    else dp[ind][buy][cnt]=max(prices[ind]+dp[ind+1][1][cnt-1],dp[ind+1][0][cnt]);
-                }
-            }
+        vector<vector<vector<int>>> dp(n,vector<vector<int>>(2,vector<int>(k+1,-1)));
+        return helper(0,1, prices, k,dp);
+    }
+    int helper(int ind, int buy, vector<int>& prices, int cnt, vector<vector<vector<int>>>& dp){
+        if(ind==prices.size() || cnt==0) return 0;
+        if(dp[ind][buy][cnt]!=-1) return dp[ind][buy][cnt];
+        int profit=INT_MIN;
+        if(buy){
+            profit=max(-prices[ind]+helper(ind+1,0,prices,cnt,dp),helper(ind+1,1,prices,cnt,dp));
         }
-        return dp[0][1][k];
+        else{
+            profit=max(prices[ind]+helper(ind+1,1,prices,cnt-1,dp),helper(ind+1,0,prices,cnt,dp));
+        }
+        return dp[ind][buy][cnt]=profit;
     }
 };
 
 
-//tabulation
+//memoization
 //1->buy
 //0->not buy
