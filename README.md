@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Nandini1001/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Nandini1001/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nandini1001/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Nandini1001/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Nandini1001/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Nandini1001/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1612-avoid-flood-in-the-city](https://github.com/Nandini1001/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Nandini1001/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/Nandini1001/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Nandini1001/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -551,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Nandini1001/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Nandini1001/Leetcode/tree/master/0735-asteroid-collision) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Nandini1001/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2227-sum-of-subarray-ranges](https://github.com/Nandini1001/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Merge Sort
 |  |
@@ -587,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Nandini1001/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1612-avoid-flood-in-the-city](https://github.com/Nandini1001/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Backtracking
@@ -646,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Nandini1001/Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Nandini1001/Leetcode/tree/master/0496-next-greater-element-i) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Nandini1001/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2227-sum-of-subarray-ranges](https://github.com/Nandini1001/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Doubly-Linked List
 |  |
