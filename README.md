@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Nandini1001/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Nandini1001/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Nandini1001/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2486-most-frequent-even-element](https://github.com/Nandini1001/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Nandini1001/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
@@ -444,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/Nandini1001/Leetcode/tree/master/2169-simple-bank-system) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Nandini1001/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Nandini1001/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Nandini1001/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3336-water-bottles-ii](https://github.com/Nandini1001/Leetcode/tree/master/3336-water-bottles-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Nandini1001/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Nandini1001/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Nandini1001/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/Nandini1001/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Prefix Sum
 |  |
