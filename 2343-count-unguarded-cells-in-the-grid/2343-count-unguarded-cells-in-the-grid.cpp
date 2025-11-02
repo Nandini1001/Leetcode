@@ -11,22 +11,20 @@ public:
         int dr[]={-1,1,0,0};
         int dc[]={0,0,-1,1};
         for(int i=0;i<guards.size();i++){
-            int row=guards[i][0];
-            int col=guards[i][1];
+            int newr=guards[i][0];
+            int newc=guards[i][1];
             for(int j=0;j<4;j++){
-                int newr=row+dr[j];
-                int newc=col+dc[j];
-                if((newr<0 || newr==m || newc<0 || newc==n) || (mark[newr][newc]==1 || 
-                    mark[newr][newc]==0 )) continue;
-                mark[newr][newc]=2;
-                while(1){
-                    if(j==0) newr--;
+                int newr=guards[i][0]+dr[j];
+                int newc=guards[i][1]+dc[j];
+                while(newr >= 0 && newr < m && newc >= 0 && newc < n && 
+                    mark[newr][newc] != 0 && mark[newr][newc] != 1){
+                    mark[newr][newc]=2;
+                    /*if(j==0) newr--;
                     else if(j==1) newr++;
                     else if(j==2) newc--;
-                    else newc++;
-                    if((newr<0 || newr==m || newc<0 || newc==n) || (mark[newr][newc]==1 || 
-                    mark[newr][newc]==0 )) break;
-                    mark[newr][newc]=2;
+                    else newc++;*/
+                    newr+=dr[j];
+                    newc+=dc[j];
                 }
             }
         }
@@ -37,6 +35,9 @@ public:
             }
         }
         return ans;
-
     }
 };
+
+
+//TC: O(n*m)
+//optimisation but not in time complexity only in code
