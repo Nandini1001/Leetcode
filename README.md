@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Nandini1001/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nandini1001/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Nandini1001/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Nandini1001/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Nandini1001/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Nandini1001/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Nandini1001/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Nandini1001/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Nandini1001/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Nandini1001/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Nandini1001/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Nandini1001/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Nandini1001/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/Nandini1001/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Nandini1001/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Nandini1001/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Nandini1001/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -597,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1612-avoid-flood-in-the-city](https://github.com/Nandini1001/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Nandini1001/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Nandini1001/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Backtracking
