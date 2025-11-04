@@ -1,22 +1,20 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> ans;
-        ans.push_back(nums[0]);
-        for(int i=0;i<nums.size();i++){
-            if(ans.back()<nums[i]){
-                ans.push_back(nums[i]);
-            }
-            else{
-                int ind=lower_bound(ans.begin(),ans.end(),nums[i])-ans.begin();
-                ans[ind]=nums[i];
+        int n=nums.size();
+        vector<vector<int>> dp(n+1, vector<int>(n+1,0));
+        for(int ind=n-1;ind>=0;ind--){
+            for(int prev=ind-1;prev>=-1;prev--){
+                dp[ind][prev+1]=dp[ind+1][prev+1];
+                if(prev==-1 || nums[ind]>nums[prev])
+                    dp[ind][prev+1]=max(dp[ind][prev+1],1+dp[ind+1][ind+1]);
             }
         }
-        return ans.size();
+        return dp[0][-1+1];
     }
 };
 
 
-//binary search
-
+//tabulation
+//prev is memoization written recursion
 
