@@ -7,18 +7,17 @@ public:
     int longestStrChain(vector<string>& words) {
         sort(words.begin(),words.end(),comp);
         int n=words.size();
-        vector<vector<int>> dp(n, vector<int>(n+1,-1));
-        return helper(0,-1,words,dp);
-    }
-    int helper(int ind, int prev, vector<string>& words, vector<vector<int>>& dp){
-        if(ind==words.size()) return 0;
-        if(dp[ind][prev+1]!=-1) return dp[ind][prev+1];
-        int maxlen=helper(ind+1,prev,words,dp);
-        if(prev==-1 || oneextra(words[ind],words[prev])){
-            maxlen=max(maxlen,1+helper(ind+1,ind,words,dp));
+        vector<vector<int>> dp(n+1, vector<int>(n+1,0));
+        for(int ind=n-1;ind>=0;ind--){
+            for(int prev=ind-1;prev>=-1;prev--){
+                dp[ind][prev+1]=dp[ind+1][prev+1];
+                if(prev==-1 || oneextra(words[ind],words[prev]))
+                    dp[ind][prev+1]=max(dp[ind][prev+1],1+dp[ind+1][ind+1]);
+            }
         }
-        return dp[ind][prev+1]=maxlen;
+        return dp[0][-1+1];
     }
+    
     bool oneextra(string& a, string& b){
         if(a.size()!=b.size()+1) return false;
         int first=0, second=0;
@@ -35,4 +34,4 @@ public:
 };
 
 
-//memoization
+//tabulation
