@@ -1,20 +1,21 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        int maxlen=0;
-        vector<int> dp(nums.size(),1);
-        for(int i=0;i<nums.size();i++){
-            for(int prev=0;prev<i;prev++){
-                if(nums[prev]<nums[i] && dp[prev]+1>dp[i]){
-                    dp[i]=1+dp[prev];
-                }
-            }
-            maxlen=max(maxlen,dp[i]);
+        int n=nums.size();
+        vector<vector<int>> dp(n, vector<int>(n+1,-1));
+        return helper(0,-1,nums,dp);
+    }
+    int helper(int ind, int prev, vector<int>& nums, vector<vector<int>>& dp){
+        if(ind==nums.size()) return 0;
+        if(dp[ind][prev+1]!=-1) return dp[ind][prev+1];
+        int maxlen=helper(ind+1,prev,nums,dp);
+        if(prev==-1 || nums[ind]>nums[prev]){
+            maxlen=max(maxlen,1+helper(ind+1,ind,nums,dp));
         }
-        return maxlen;
+        return dp[ind][prev+1]=maxlen;
     }
 };
 
 
-//method use to print LIS
-//prev is direct tabulation
+//recursion
+
