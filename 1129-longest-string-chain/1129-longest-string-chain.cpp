@@ -6,17 +6,18 @@ public:
     }
     int longestStrChain(vector<string>& words) {
         sort(words.begin(),words.end(),comp);
-        int maxlen=0;
-        vector<int> dp(words.size(),1);
-        for(int i=0;i<words.size();i++){
-            for(int prev=0;prev<i;prev++){
-                if(oneextra(words[i],words[prev]) && dp[prev]+1>dp[i]){
-                    dp[i]=1+dp[prev];
-                }
-            }
-            maxlen=max(maxlen,dp[i]);
+        int n=words.size();
+        vector<vector<int>> dp(n, vector<int>(n+1,-1));
+        return helper(0,-1,words,dp);
+    }
+    int helper(int ind, int prev, vector<string>& words, vector<vector<int>>& dp){
+        if(ind==words.size()) return 0;
+        if(dp[ind][prev+1]!=-1) return dp[ind][prev+1];
+        int maxlen=helper(ind+1,prev,words,dp);
+        if(prev==-1 || oneextra(words[ind],words[prev])){
+            maxlen=max(maxlen,1+helper(ind+1,ind,words,dp));
         }
-        return maxlen;
+        return dp[ind][prev+1]=maxlen;
     }
     bool oneextra(string& a, string& b){
         if(a.size()!=b.size()+1) return false;
@@ -34,4 +35,4 @@ public:
 };
 
 
-//method use to print LIS
+//memoization
