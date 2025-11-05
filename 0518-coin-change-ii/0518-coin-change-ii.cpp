@@ -1,19 +1,20 @@
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
-        vector<vector<int>> dp(coins.size(),vector<int>(amount+1,-1));
-        int ans=helper(coins.size()-1, amount, coins,dp);
-        return ans;
-    }
-    int helper(int ind, int tar, vector<int>& coins, vector<vector<int>>& dp){
-        if(ind==0){
-            return tar%coins[0]==0;
+        vector<vector<unsigned long long>> dp(coins.size(),vector<unsigned long long>(amount+1,0));
+        for(int tar=0;tar<=amount;tar++){
+            if(tar%coins[0]==0) dp[0][tar]=1;
         }
-        if(dp[ind][tar]!=-1) return dp[ind][tar];
-        int nottake=helper(ind-1,tar,coins,dp);
-        int take=0;
-        if(coins[ind]<=tar)
-            take=helper(ind,tar-coins[ind],coins,dp);
-        return dp[ind][tar]=take+nottake;
+        for(int ind=1;ind<coins.size();ind++){
+            for(int tar=0;tar<=amount;tar++){
+                unsigned long long nottake=dp[ind-1][tar];
+                unsigned long long take=0;
+                if(coins[ind]<=tar)
+                    take=dp[ind][tar-coins[ind]];
+                dp[ind][tar]=take+nottake;
+            }
+        }
+        return (int)dp[coins.size()-1][amount];
     }
+    
 };
