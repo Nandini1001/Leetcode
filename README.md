@@ -337,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Nandini1001/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Nandini1001/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Nandini1001/Leetcode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
 |  |
 | ------- |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Nandini1001/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Nandini1001/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Nandini1001/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Sorting
 |  |
 | ------- |
@@ -754,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Nandini1001/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Nandini1001/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Binary Tree
 |  |
 | ------- |
@@ -815,6 +818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Nandini1001/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Nandini1001/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
 | ------- |
@@ -827,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Nandini1001/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Nandini1001/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
@@ -842,6 +847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Nandini1001/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Nandini1001/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Nandini1001/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Topological Sort
 |  |
 | ------- |
@@ -861,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Nandini1001/Leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Nandini1001/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Shortest Path
 |  |
 | ------- |
@@ -913,4 +920,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Nandini1001/Leetcode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+## Ordered Set
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/Nandini1001/Leetcode/tree/master/3863-power-grid-maintenance) |
 <!---LeetCode Topics End-->
