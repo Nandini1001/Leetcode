@@ -29,6 +29,7 @@ public:
         queue<int> q;
         //int v=adjls.size();
         q.push(start);
+        vis[start]=1;
         while(!q.empty()){
             int curr=q.front();
             q.pop();
@@ -46,4 +47,4 @@ public:
 };
 
 
-//same as prev
+//32 line added
