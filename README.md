@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0319-bulb-switcher](https://github.com/Nandini1001/Leetcode/tree/master/0319-bulb-switcher) |
 | [0368-largest-divisible-subset](https://github.com/Nandini1001/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0830-largest-triangle-area](https://github.com/Nandini1001/Leetcode/tree/master/0830-largest-triangle-area) |
+| [0840-magic-squares-in-grid](https://github.com/Nandini1001/Leetcode/tree/master/0840-magic-squares-in-grid) |
 | [1013-fibonacci-number](https://github.com/Nandini1001/Leetcode/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1236-n-th-tribonacci-number](https://github.com/Nandini1001/Leetcode/tree/master/1236-n-th-tribonacci-number) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Nandini1001/Leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/Nandini1001/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Nandini1001/Leetcode/tree/master/0830-largest-triangle-area) |
+| [0840-magic-squares-in-grid](https://github.com/Nandini1001/Leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Nandini1001/Leetcode/tree/master/0854-making-a-large-island) |
 | [0907-koko-eating-bananas](https://github.com/Nandini1001/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/Nandini1001/Leetcode/tree/master/0940-fruit-into-baskets) |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Nandini1001/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/Nandini1001/Leetcode/tree/master/0721-accounts-merge) |
 | [0756-pyramid-transition-matrix](https://github.com/Nandini1001/Leetcode/tree/master/0756-pyramid-transition-matrix) |
+| [0840-magic-squares-in-grid](https://github.com/Nandini1001/Leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Nandini1001/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/Nandini1001/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Nandini1001/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -587,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Nandini1001/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Nandini1001/Leetcode/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/Nandini1001/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0840-magic-squares-in-grid](https://github.com/Nandini1001/Leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Nandini1001/Leetcode/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/Nandini1001/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Nandini1001/Leetcode/tree/master/1036-rotting-oranges) |
