@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Nandini1001/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Nandini1001/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [0977-squares-of-a-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1129-longest-string-chain](https://github.com/Nandini1001/Leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Nandini1001/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Nandini1001/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/Nandini1001/Leetcode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0966-binary-subarrays-with-sum](https://github.com/Nandini1001/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Nandini1001/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [0977-squares-of-a-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1036-rotting-oranges](https://github.com/Nandini1001/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Nandini1001/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -474,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Nandini1001/Leetcode/tree/master/0721-accounts-merge) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/Nandini1001/Leetcode/tree/master/0748-largest-number-at-least-twice-of-others) |
 | [0759-set-intersection-size-at-least-two](https://github.com/Nandini1001/Leetcode/tree/master/0759-set-intersection-size-at-least-two) |
+| [0977-squares-of-a-sorted-array](https://github.com/Nandini1001/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1018-largest-perimeter-triangle](https://github.com/Nandini1001/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Nandini1001/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Nandini1001/Leetcode/tree/master/1129-longest-string-chain) |
