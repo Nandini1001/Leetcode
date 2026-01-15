@@ -363,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Nandini1001/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/Nandini1001/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Nandini1001/Leetcode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Nandini1001/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Nandini1001/Leetcode/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -487,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Nandini1001/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2402-meeting-rooms-iii](https://github.com/Nandini1001/Leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/Nandini1001/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Nandini1001/Leetcode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Nandini1001/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3433-count-mentions-per-user](https://github.com/Nandini1001/Leetcode/tree/master/3433-count-mentions-per-user) |
