@@ -4,9 +4,11 @@ public:
         sort(nums.begin(),nums.end());
         int minans=1e9;
         int n=nums.size();
+        int j=0;
         for(int i=0;i<nums.size();i++){
-            int ind=upper_bound(nums.begin()+i,nums.end(),1LL*nums[i]*k)-nums.begin();
-            minans=min(minans,n-ind+i);
+            while(j<n && nums[j]<=1LL*nums[i]*k)
+                j++;
+            minans=min(minans,n-(j-i));
         }
         return minans;
     }
