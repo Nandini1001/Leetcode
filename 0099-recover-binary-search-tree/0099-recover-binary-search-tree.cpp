@@ -20,8 +20,7 @@ public:
         first=mid=last=NULL;
         prev=new TreeNode(INT_MIN);
         inorder(root,prev,first,last, mid);
-        if(last) swap(first->val, last->val);
-        else swap(first->val, mid->val);
+        swap(first->val, last->val);
     }
     void inorder(TreeNode* root, TreeNode*& prev, TreeNode*& first, 
     TreeNode*& last, TreeNode*& mid){
@@ -30,7 +29,7 @@ public:
         if( root->val<prev->val){
             if(!first){
                 first=prev;
-                mid=root;
+                last=root;
             }
             else last=root;
         }
