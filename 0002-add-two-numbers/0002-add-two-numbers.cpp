@@ -11,28 +11,59 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *dummy=new ListNode(-1);
-        ListNode *curr=dummy;
-        ListNode *h1=l1, *h2=l2;
+        ListNode* newhead= new ListNode(-1);
+        ListNode* node=newhead;
         int carry=0;
-        while(h1!=nullptr || h2!=nullptr)
-        {
-            int sum=carry;
-            if(h1) sum+=h1->val;
-            if(h2) sum+=h2->val;
-            ListNode *node=new ListNode(sum%10);
-            curr->next=node;
-            curr=node;
-            carry=sum/10;
-            if(h1) h1=h1->next;
-            if(h2) h2=h2->next;
+        while(l1 && l2){
+            ListNode* temp= new ListNode();
+            node->next=temp;
+            node=temp;
+            int sum=l1->val+l2->val+carry;
+            if(sum>=10){
+                node->val=sum%10;
+                carry=1;
+            }
+            else{
+                node->val=sum;
+                carry=0;
+            }
+            l1=l1->next;
+            l2=l2->next;
         }
-        if(carry)
-        {
-            ListNode *node=new ListNode(carry);
-            curr->next=node;
-            return dummy->next;
+        while(l1){
+            ListNode* temp= new ListNode();
+            node->next=temp;
+            node=temp;
+            int sum=l1->val+carry;
+            if(sum>=10){
+                node->val=sum%10;
+                carry=1;
+            }
+            else{
+                node->val=sum;
+                carry=0;
+            }
+            l1=l1->next;
+        } 
+        while(l2){
+            ListNode* temp= new ListNode();
+            node->next=temp;
+            node=temp;
+            int sum=l2->val+carry;
+            if(sum>=10){
+                node->val=sum%10;
+                carry=1;
+            }
+            else{
+                node->val=sum;
+                carry=0;
+            }
+            l2=l2->next;
         }
-        return dummy->next;
+        if(carry){
+            ListNode* temp= new ListNode(1);
+            node->next=temp;
+        }
+        return newhead->next;
     }
 };
