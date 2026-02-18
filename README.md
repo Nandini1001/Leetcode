@@ -802,6 +802,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Nandini1001/Leetcode/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/Nandini1001/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0401-binary-watch](https://github.com/Nandini1001/Leetcode/tree/master/0401-binary-watch) |
+| [0693-binary-number-with-alternating-bits](https://github.com/Nandini1001/Leetcode/tree/master/0693-binary-number-with-alternating-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/Nandini1001/Leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Nandini1001/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
