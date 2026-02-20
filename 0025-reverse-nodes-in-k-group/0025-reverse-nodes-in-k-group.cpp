@@ -9,51 +9,46 @@
  * };
  */
 class Solution {
-private:
-    void rev(ListNode* head)
-    {
-        ListNode *temp=head, *prevnode=nullptr;
-        while(temp)
-        {
-            ListNode *nextnode=temp->next;
-            temp->next=prevnode;
-            prevnode=temp;
-            temp=nextnode;
-        }
-    }
-    ListNode* kthnode(ListNode* head, int k)
-    {
-        ListNode* temp=head;
-        while(temp)
-        {
-            k--;
-            if(k==0)
-                return temp;
-            temp=temp->next;
-        }
-        return temp;
-    }
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode* knode, *prevnode=nullptr, *temp=head;
-        while(temp)
-        {
-            knode=kthnode(temp,k);
-            if(knode==nullptr)
-            {
-                if(prevnode) prevnode->next=temp;
-                break;
+        ListNode* temp=head;
+        ListNode* curhead=head;
+        ListNode* prevlast=NULL;
+        ListNode* newhead=head;
+        ListNode* nextstart=NULL;
+        while(1){
+            int n=k-1;
+            while(n && temp){
+                n--;
+                temp=temp->next;
             }
-            ListNode *nextnode=knode->next;
-            knode->next=nullptr;
-            rev(temp);
-            if(temp==head)
-                head=knode;
-            else
-                prevnode->next=knode;
-            prevnode=temp;
-            temp=nextnode;
+            if(!temp){
+                if(prevlast)
+                    prevlast->next=curhead;
+                return newhead;
+            }
+            nextstart=temp->next;
+            temp->next=0;
+            temp=nextstart;
+            ListNode* khead=reverse(curhead);
+            if(curhead==head)
+                newhead=khead;
+            if(prevlast) prevlast->next=khead;
+            prevlast=curhead;
+            curhead->next=temp;
+            curhead=temp;
         }
         return head;
+    }
+    ListNode* reverse (ListNode* head) {
+        ListNode* prev=nullptr;
+        ListNode* next;
+        while(head){
+            next=head->next;
+            head->next=prev;
+            prev=head;
+            head=next;
+        }
+        return prev;
     }
 };
