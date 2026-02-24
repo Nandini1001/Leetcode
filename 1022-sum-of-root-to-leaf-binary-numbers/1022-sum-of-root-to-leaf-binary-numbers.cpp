@@ -12,30 +12,15 @@
 class Solution {
 public:
     int sumRootToLeaf(TreeNode* root) {
-        int sum=0;
-        vector<int> binary;
-        dfs(root, binary, sum);
-        return sum;
+        return dfs(root, 0);
     }
-    int decimal(vector<int> &s){
-        int no=0;
-        int n=s.size();
-        for(int i=0;i<s.size();i++){
-            if(s[n-i-1]) no+=pow(2,i);
-        }
-        return no;
-    }
-    void dfs(TreeNode* node, vector<int>& binary, int &sum){
-        if(node==NULL) return;
+    
+    int dfs(TreeNode* node, int curr){
+        if(node==NULL) return 0;
+        curr=(curr<<1)|node->val;
         if(node->left==NULL && node->right==NULL){
-            binary.push_back(node->val);
-            sum+=decimal(binary);
-            binary.pop_back();
-            return;
+            return curr;
         }
-        binary.push_back(node->val);
-        dfs(node->left, binary, sum);
-        dfs(node->right, binary, sum);
-        binary.pop_back();
+        return dfs(node->left, curr)+dfs(node->right, curr);
     }
 };
