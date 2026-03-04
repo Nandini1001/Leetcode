@@ -360,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/Nandini1001/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Nandini1001/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Nandini1001/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/Nandini1001/Leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1590-make-sum-divisible-by-p](https://github.com/Nandini1001/Leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Nandini1001/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1612-avoid-flood-in-the-city](https://github.com/Nandini1001/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
@@ -694,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Nandini1001/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Nandini1001/Leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Nandini1001/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/Nandini1001/Leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Nandini1001/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Nandini1001/Leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
