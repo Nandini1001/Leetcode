@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Nandini1001/Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Nandini1001/Leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Nandini1001/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Nandini1001/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Nandini1001/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Nandini1001/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Nandini1001/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Nandini1001/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Nandini1001/Leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Nandini1001/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Nandini1001/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Nandini1001/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Nandini1001/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -908,6 +910,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Nandini1001/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Nandini1001/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Nandini1001/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Nandini1001/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Nandini1001/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Nandini1001/Leetcode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Nandini1001/Leetcode/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
