@@ -12,14 +12,9 @@
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
-        //using recursion
-        return ht(root);
-    }
-    int ht(TreeNode *root){
         if(root==NULL) return 0;
-        int lh=ht(root->left);
-        int rh=ht(root->right);
-        return 1+max(lh,rh);
+        int lh=maxDepth(root->left)+1;
+        int rh=maxDepth(root->right)+1;
+        return max(lh,rh);
     }
-    
 };
