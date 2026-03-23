@@ -12,15 +12,15 @@
 class Solution {
 public:
     int diameterOfBinaryTree(TreeNode* root) {
-        int maxi=INT_MIN;
-        dia(root,&maxi);
-        return maxi;
+        int dia=0;
+        helper(root,dia);
+        return dia;
     }
-    int dia(TreeNode *root, int *maxi){
+    int helper(TreeNode* root, int &dia){
         if(root==NULL) return 0;
-        int lh=dia(root->left,maxi);
-        int rh=dia(root->right,maxi);
-        *maxi=max(*maxi,lh+rh);
+        int lh=helper(root->left, dia);
+        int rh=helper(root->right, dia);
+        dia=max(dia,lh+rh);
         return 1+max(lh,rh);
     }
 };
