@@ -9,7 +9,6 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-//using level order 
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
@@ -19,15 +18,19 @@ public:
         q.push(root);
         while(!q.empty()){
             int size=q.size();
-            for(int i=0;i<size;i++){
+            bool isFirst=true;
+            while(size){
                 TreeNode* node=q.front();
                 q.pop();
-                if(i==0) ans.push_back(node->val);
+                if(isFirst){
+                    ans.push_back(node->val);
+                    isFirst=false;
+                }
                 if(node->right) q.push(node->right);
                 if(node->left) q.push(node->left);
+                size--;
             }
         }
         return ans;
     }
-    
 };
