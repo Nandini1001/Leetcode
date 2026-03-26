@@ -12,31 +12,21 @@
 class Solution {
 public:
     void recoverTree(TreeNode* root) {
-        if(root==NULL) return;
-        TreeNode* prev;
-        TreeNode* last;
-        TreeNode* mid;
-        TreeNode* first;
-        first=mid=last=NULL;
-        prev=new TreeNode(INT_MIN);
-        inorder(root,prev,first,last, mid);
-        swap(first->val, last->val);
+        TreeNode* first=NULL, *second=NULL;
+        TreeNode * prev=new TreeNode(INT_MIN);
+        helper(prev, root, first, second);
+        int temp=first->val;
+        first->val=second->val;
+        second->val=temp;
     }
-    void inorder(TreeNode* root, TreeNode*& prev, TreeNode*& first, 
-    TreeNode*& last, TreeNode*& mid){
-        if(root==NULL) return;
-        inorder(root->left,prev,first,last, mid);
-        if( root->val<prev->val){
-            if(!first){
-                first=prev;
-                last=root;
-            }
-            else last=root;
+    void helper(TreeNode*& prev, TreeNode* curr, TreeNode*& first, TreeNode*& second){
+        if(curr==NULL) return;
+        helper(prev, curr->left, first, second);
+        if(prev->val>curr->val){
+            if(first==NULL) first=prev;
+            second=curr;
         }
-        prev=root;
-        inorder(root->right,prev,first,last,mid);
+        prev=curr;
+        helper(prev, curr->right, first, second);
     }
 };
-
-//previous using global this pass by reference
-//try not to store prev as node rather store only prev as int value but not possible as we have to make prev as first node also.
