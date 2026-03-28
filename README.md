@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Nandini1001/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Nandini1001/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Nandini1001/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Nandini1001/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Nandini1001/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Nandini1001/Leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Nandini1001/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Nandini1001/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Nandini1001/Leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Nandini1001/Leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Nandini1001/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2402-meeting-rooms-iii](https://github.com/Nandini1001/Leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2486-most-frequent-even-element](https://github.com/Nandini1001/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Nandini1001/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Nandini1001/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
@@ -748,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/Nandini1001/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Nandini1001/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Nandini1001/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2906-construct-product-matrix](https://github.com/Nandini1001/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Nandini1001/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Nandini1001/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -863,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Nandini1001/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1975-maximum-matrix-sum](https://github.com/Nandini1001/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Nandini1001/Leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Nandini1001/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Nandini1001/Leetcode/tree/master/3074-apple-redistribution-into-boxes) |
@@ -1307,6 +1312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Nandini1001/Leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Minimum Spanning Tree
 |  |
