@@ -2,14 +2,12 @@ class Solution {
 public:
     int climbStairs(int n) {
         vector<int> dp(n+1,-1);
-        return function(n,dp);
+        return helper(n, dp);
     }
-    int function(int n, vector<int> &dp)
-    {
-        if(n==0 || n==1) return 1;
+    int helper(int n, vector<int>& dp){
+        if(n==0) return 1;
+        if(n<0) return 0;
         if(dp[n]!=-1) return dp[n];
-        int left=function(n-1,dp);
-        int right=function(n-2,dp);
-        return dp[n]=left+right;
+        return dp[n]=helper(n-1, dp)+helper(n-2, dp);
     }
 };
