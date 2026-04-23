@@ -435,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2486-most-frequent-even-element](https://github.com/Nandini1001/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2573-find-the-string-with-lcp](https://github.com/Nandini1001/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Nandini1001/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2615-sum-of-distances](https://github.com/Nandini1001/Leetcode/tree/master/2615-sum-of-distances) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Nandini1001/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -560,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Nandini1001/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2402-meeting-rooms-iii](https://github.com/Nandini1001/Leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2486-most-frequent-even-element](https://github.com/Nandini1001/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [2615-sum-of-distances](https://github.com/Nandini1001/Leetcode/tree/master/2615-sum-of-distances) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Nandini1001/Leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Nandini1001/Leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Nandini1001/Leetcode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
@@ -826,6 +828,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1590-make-sum-divisible-by-p](https://github.com/Nandini1001/Leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Nandini1001/Leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Nandini1001/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2615-sum-of-distances](https://github.com/Nandini1001/Leetcode/tree/master/2615-sum-of-distances) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Nandini1001/Leetcode/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2906-construct-product-matrix](https://github.com/Nandini1001/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Nandini1001/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
